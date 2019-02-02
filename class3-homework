@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+import os
+myfilename= "housing.data.txt"
+
+if os.path.isfile(myfilename):
+print("yay, i have a file")
+
+else : print ('boo, no files for me ')
+
+#with open(myfile, "r") as file_handle:
+#line = file_handle.readline()
+#file_handle = open(myfilename, 'r')
+#do something
+#file_handle.close()
